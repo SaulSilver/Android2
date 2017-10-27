@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dv606.hh222ix.assignment2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="spinner_list_item_array">
+        <item>Default Sort</item>
+        <item>Ascending by Country</item>
+        <item>Descending by Country</item>
+        <item>Ascending by Year</item>
+        <item>Descending by Year</item>
+    </string-array>
+
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

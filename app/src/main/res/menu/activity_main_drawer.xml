@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_countries_calender"
+            android:title="MyCountriesCalender" />
+        <item
+            android:id="@+id/alarmo_clocko"
+            android:title="AlarmClock" />
+        <item
+            android:id="@+id/mp3"
+            android:title="MP3 Player" />
+    </group>
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.80">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="fill_parent"
+            android:layout_height="31dp"
+            android:paddingLeft="3px"
+            android:gravity="center_vertical"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvYear"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="3px"
+            android:gravity="center_vertical"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.20">
+
+        <Button
+            android:id="@+id/btDelete"
+            android:layout_width="45sp"
+            android:layout_height="35sp"
+            android:gravity="center"
+            android:text="X"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btUpdate"
+            android:layout_width="72dp"
+            android:layout_height="35sp"
+            android:gravity="center"
+            android:text="Edit"
+            android:visibility="visible" />
+
+        </LinearLayout>
+</LinearLayout>
